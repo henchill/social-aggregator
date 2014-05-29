@@ -1,4 +1,4 @@
-# [appBoilerplate](https://github.com/linkeddata/appBoilerplate)
+# [appBoilerplate](https://github.com/linkeddata/appBoilerplate) [![Build Status](https://travis-ci.org/linkeddata/appBoilerplate.png)](https://travis-ci.org/linkeddata/appBoilerplate)
 
 An opinionated kickstarter for Linked Data Web Apps based on [ngBoilerplate](https://github.com/ngbp/ngbp).
 
