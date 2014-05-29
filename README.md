@@ -43,7 +43,7 @@ All you have to do is clone it and start coding!
 At a high level, the structure looks roughly like this:
 
 ```
-ng-boilerplate/
+appBoilerplate/
   |- grunt-tasks/
   |- karma/
   |- src/
@@ -120,7 +120,7 @@ from GitHub, or merge the branch into your existing repository. Assuming you're
 starting from scratch, simply clone this repository using git:
 
 ```sh
-$ git clone git://github.com/joshdmiller/ng-boilerplate my-project-name
+$ git clone git://github.com/linkeddata/appBoilerplate my-project-name
 $ cd my-project-name
 ```
 
@@ -227,7 +227,7 @@ changes:
   values configured dynamically by Grunt.
 * `delta:less` - When any `*.less` file within `src/` changes, the
   `src/less/main.less` file is linted and copied into
-  `build/assets/ng-boilerplate.css`.
+  `build/assets/app.css`.
 * `delta:jssrc` - When any JavaScript file within `src/` that does not end in
   `.spec.js` changes, all JavaScript sources are linted, all unit tests are run,
   and the all source files are re-copied to `build/src`.
