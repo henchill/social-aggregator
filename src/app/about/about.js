@@ -1,4 +1,4 @@
-angular.module( 'ngBoilerplate.about', [
+angular.module( 'App.about', [
   'ui.router',
   'placeholders',
   'ui.bootstrap'
@@ -18,12 +18,8 @@ angular.module( 'ngBoilerplate.about', [
 })
 
 .controller( 'AboutCtrl', function AboutCtrl( $scope ) {
-  // This is simple a demo for UI Boostrap.
-  $scope.dropdownDemoItems = [
-    "The first choice!",
-    "And another choice for you.",
-    "but wait! A third!"
-  ];
+  // blank
+  
 })
 
 ;
