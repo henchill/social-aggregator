@@ -10,7 +10,7 @@ Install Node.js and then:
 
 ```sh
 $ git clone git://github.com/linkeddata/app-bp
-$ cd appbp
+$ cd app-bp
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
 $ bower install
