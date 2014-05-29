@@ -1,4 +1,4 @@
-# [appBoilerplate](https://github.com/linkeddata/appBoilerplate) [![Build Status](https://travis-ci.org/linkeddata/appBoilerplate.png)](https://travis-ci.org/linkeddata/appBoilerplate)
+# [appBoilerplate](https://github.com/linkeddata/app-bp) [![Build Status](https://travis-ci.org/linkeddata/app-bp.png)](https://travis-ci.org/linkeddata/app-bp)
 
 An opinionated kickstarter for Linked Data Web Apps based on [ngBoilerplate](https://github.com/ngbp/ngbp).
 
@@ -9,7 +9,7 @@ An opinionated kickstarter for Linked Data Web Apps based on [ngBoilerplate](htt
 Install Node.js and then:
 
 ```sh
-$ git clone git://github.com/linkeddata/appBoilerplate
+$ git clone git://github.com/linkeddata/app-bp
 $ cd appbp
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
@@ -17,7 +17,7 @@ $ bower install
 $ grunt watch
 ```
 
-Finally, open `file:///path/to/appBoilerplate/build/index.html` in your browser.
+Finally, open `file:///path/to/app-bp/build/index.html` in your browser.
 
 Happy hacking!
 
@@ -43,7 +43,7 @@ All you have to do is clone it and start coding!
 At a high level, the structure looks roughly like this:
 
 ```
-appBoilerplate/
+app-bp/
   |- grunt-tasks/
   |- karma/
   |- src/
@@ -120,8 +120,8 @@ from GitHub, or merge the branch into your existing repository. Assuming you're
 starting from scratch, simply clone this repository using git:
 
 ```sh
-$ git clone git://github.com/linkeddata/appBoilerplate my-project-name
-$ cd my-project-name
+$ git clone git://github.com/linkeddata/app-bp my-app
+$ cd my-app
 ```
 
 And then install the remaining build dependencies locally:
